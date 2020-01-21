@@ -24,6 +24,7 @@
 
 body {
   margin: 0;
+  padding: 1em;
   font-size: 1.6em;
   background-color: var(--light-grey);
   min-height: 100vh;
@@ -39,4 +40,39 @@ h4,
 h5,
 h6 {
   font-weight: 700;
+  margin-block-start: 0;
+}
+
+/* PRICE COMPONENT */
+.price-component {
+  width: 80%;
+  max-width: 750px;
+  box-shadow: 3px 4px 16px hsl(218, 22%, 67%, 0.4),
+  -2px -3px 16px hsl(218, 22%, 67%, 0.4);
+}
+
+.price-component__header,
+.price-component__subscription,
+.price-component__features {
+  padding: 1.5em;
+}
+
+/* PRICE COMPONENT HEADER */
+.price-component__header {
+  background-color: #fff;
+}
+
+.price-component__header h1 {
+  color: var(--cyan);
+  font-size: 2rem;
+}
+
+.price-component__header h2 {
+  color: var(--yellow);
+  font-size: 1.4rem;
+}
+
+.price-component__header p {
+  color: var(--blue);
+  font-size: 1.2rem;
 }
