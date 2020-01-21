@@ -93,6 +93,7 @@ h6 {
   color: hsla(204, 43%, 93%, 0.6);
   font-size: 1.3rem;
   font-weight: 400;
+  margin-block-end: .5rem;
 }
 
 .price-component__subscription h3 .price {
@@ -100,4 +101,22 @@ h6 {
   color: #fff;
   font-size: 3.5rem;
   padding-inline-end: 1rem;
+}
+
+.price-component__subscription p {
+  margin: 0;
+  font-size: 1.3rem;
+  margin-block-end: 3rem;
+}
+
+.price-component__subscription .subscription__btn {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  background-color: var(--yellow);
+  padding: 1rem 1.5rem;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: 700;
+  box-shadow: 3px 4px 12px hsla(0, 0%, 43%, 0.7);
 }
