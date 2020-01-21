@@ -47,8 +47,8 @@ h6 {
 .price-component {
   width: 80%;
   max-width: 750px;
-  box-shadow: 3px 4px 16px hsl(218, 22%, 67%, 0.4),
-  -2px -3px 16px hsl(218, 22%, 67%, 0.4);
+  box-shadow: 3px 4px 16px hsla(218, 22%, 67%, 0.4),
+  -2px -3px 16px hsla(218, 22%, 67%, 0.4);
 }
 
 .price-component__header,
@@ -75,4 +75,29 @@ h6 {
 .price-component__header p {
   color: var(--blue);
   font-size: 1.2rem;
+}
+
+/* PRICE COMPONENT BOXES */
+
+/* PRICE COMPONENT SUBSCRIPTION */
+.price-component__subscription {
+  background-color: var(--cyan);
+  color: #fff;
+}
+
+.price-component__subscription h2 {
+  font-size: 1.6rem;
+}
+
+.price-component__subscription h3 {
+  color: hsla(204, 43%, 93%, 0.6);
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.price-component__subscription h3 .price {
+  display: inline-block;
+  color: #fff;
+  font-size: 3.5rem;
+  padding-inline-end: 1rem;
 }
