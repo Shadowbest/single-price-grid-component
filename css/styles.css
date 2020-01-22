@@ -87,6 +87,7 @@ h6 {
 
 .price-component__subscription h2 {
   font-size: 1.6rem;
+  text-transform: capitalize;
 }
 
 .price-component__subscription h3 {
@@ -117,6 +118,27 @@ h6 {
   padding: 1rem 1.5rem;
   border-radius: 4px;
   text-align: center;
-  font-weight: 700;
   box-shadow: 3px 4px 12px hsla(0, 0%, 43%, 0.7);
+}
+
+/* PRICE COMPONENT FEATURES */
+.price-component__features {
+  background-color: hsl(179, 62%, 46%);
+  color: #fff;
+}
+
+.price-component__features h2 {
+  font-size: 1.9rem;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.price-component__features .features-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.price-component__features .features-list__item {
+  font-size: 1.4rem;
 }
